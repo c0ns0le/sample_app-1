@@ -31,6 +31,7 @@ class UsersController < ApplicationController
   end
 
   def new
+    #debugger
     @user  = User.new
     @title = "Sign up"
   end
